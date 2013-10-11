@@ -16,8 +16,12 @@ class UnicodeData
   end
 
   def lookup(codepoint)
-    codepoint.gsub!('U+', '')
     @characters[codepoint]
+  end
+
+  def character(codepoint)
+    hex = "0x#{codepoint}".hex
+    [hex].pack("U*")
   end
 end
 
@@ -46,14 +50,23 @@ class CharsetTable
     puts table
   end
 
+  def codepoint(str)
+    str.gsub('U+', '')
+  end
+
   def translate(mapping)
     mapping.strip!
-    codepoints      = mapping.split("->")
-    left_codepoint  = codepoints[0]
-    right_codepoint = codepoints[1]
+    mapping_parts   = mapping.split("->")
+
+    left_codepoint  = codepoint(mapping_parts[0])
+    right_codepoint = codepoint(mapping_parts[1])
+
+    left_character  = @unicode_data.character(left_codepoint)
+    right_character = @unicode_data.character(right_codepoint)
+
     left_character_description  = @unicode_data.lookup(left_codepoint)
     right_character_description = @unicode_data.lookup(right_codepoint)
-    [mapping, left_character_description, right_character_description]
+    [mapping, left_character_description, left_character, '->', right_character, right_character_description]
   end
 end
 
