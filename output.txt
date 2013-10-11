@@ -1,0 +1,532 @@
++----------------+--------------------------------------------------------------------------+------------------------------------------------+
+| U+0622->U+0627 | ARABIC LETTER ALEF WITH MADDA ABOVE                                      | ARABIC LETTER ALEF                             |
+| U+0623->U+0627 | ARABIC LETTER ALEF WITH HAMZA ABOVE                                      | ARABIC LETTER ALEF                             |
+| U+0624->U+0648 | ARABIC LETTER WAW WITH HAMZA ABOVE                                       | ARABIC LETTER WAW                              |
+| U+0625->U+0627 | ARABIC LETTER ALEF WITH HAMZA BELOW                                      | ARABIC LETTER ALEF                             |
+| U+0626->U+064A | ARABIC LETTER YEH WITH HAMZA ABOVE                                       | ARABIC LETTER YEH                              |
+| U+06C0->U+06D5 | ARABIC LETTER HEH WITH YEH ABOVE                                         | ARABIC LETTER AE                               |
+| U+06C2->U+06C1 | ARABIC LETTER HEH GOAL WITH HAMZA ABOVE                                  | ARABIC LETTER HEH GOAL                         |
+| U+06D3->U+06D2 | ARABIC LETTER YEH BARREE WITH HAMZA ABOVE                                | ARABIC LETTER YEH BARREE                       |
+| U+FB50->U+0671 | ARABIC LETTER ALEF WASLA ISOLATED FORM                                   | ARABIC LETTER ALEF WASLA                       |
+| U+FB51->U+0671 | ARABIC LETTER ALEF WASLA FINAL FORM                                      | ARABIC LETTER ALEF WASLA                       |
+| U+FB52->U+067B | ARABIC LETTER BEEH ISOLATED FORM                                         | ARABIC LETTER BEEH                             |
+| U+FB53->U+067B | ARABIC LETTER BEEH FINAL FORM                                            | ARABIC LETTER BEEH                             |
+| U+FB54->U+067B | ARABIC LETTER BEEH INITIAL FORM                                          | ARABIC LETTER BEEH                             |
+| U+FB56->U+067E | ARABIC LETTER PEH ISOLATED FORM                                          | ARABIC LETTER PEH                              |
+| U+FB57->U+067E | ARABIC LETTER PEH FINAL FORM                                             | ARABIC LETTER PEH                              |
+| U+FB58->U+067E | ARABIC LETTER PEH INITIAL FORM                                           | ARABIC LETTER PEH                              |
+| U+FB5A->U+0680 | ARABIC LETTER BEHEH ISOLATED FORM                                        | ARABIC LETTER BEHEH                            |
+| U+FB5B->U+0680 | ARABIC LETTER BEHEH FINAL FORM                                           | ARABIC LETTER BEHEH                            |
+| U+FB5C->U+0680 | ARABIC LETTER BEHEH INITIAL FORM                                         | ARABIC LETTER BEHEH                            |
+| U+FB5E->U+067A | ARABIC LETTER TTEHEH ISOLATED FORM                                       | ARABIC LETTER TTEHEH                           |
+| U+FB5F->U+067A | ARABIC LETTER TTEHEH FINAL FORM                                          | ARABIC LETTER TTEHEH                           |
+| U+FB60->U+067A | ARABIC LETTER TTEHEH INITIAL FORM                                        | ARABIC LETTER TTEHEH                           |
+| U+FB62->U+067F | ARABIC LETTER TEHEH ISOLATED FORM                                        | ARABIC LETTER TEHEH                            |
+| U+FB63->U+067F | ARABIC LETTER TEHEH FINAL FORM                                           | ARABIC LETTER TEHEH                            |
+| U+FB64->U+067F | ARABIC LETTER TEHEH INITIAL FORM                                         | ARABIC LETTER TEHEH                            |
+| U+FB66->U+0679 | ARABIC LETTER TTEH ISOLATED FORM                                         | ARABIC LETTER TTEH                             |
+| U+FB67->U+0679 | ARABIC LETTER TTEH FINAL FORM                                            | ARABIC LETTER TTEH                             |
+| U+FB68->U+0679 | ARABIC LETTER TTEH INITIAL FORM                                          | ARABIC LETTER TTEH                             |
+| U+FB6A->U+06A4 | ARABIC LETTER VEH ISOLATED FORM                                          | ARABIC LETTER VEH                              |
+| U+FB6B->U+06A4 | ARABIC LETTER VEH FINAL FORM                                             | ARABIC LETTER VEH                              |
+| U+FB6C->U+06A4 | ARABIC LETTER VEH INITIAL FORM                                           | ARABIC LETTER VEH                              |
+| U+FB6E->U+06A6 | ARABIC LETTER PEHEH ISOLATED FORM                                        | ARABIC LETTER PEHEH                            |
+| U+FB6F->U+06A6 | ARABIC LETTER PEHEH FINAL FORM                                           | ARABIC LETTER PEHEH                            |
+| U+FB70->U+06A6 | ARABIC LETTER PEHEH INITIAL FORM                                         | ARABIC LETTER PEHEH                            |
+| U+FB72->U+0684 | ARABIC LETTER DYEH ISOLATED FORM                                         | ARABIC LETTER DYEH                             |
+| U+FB73->U+0684 | ARABIC LETTER DYEH FINAL FORM                                            | ARABIC LETTER DYEH                             |
+| U+FB74->U+0684 | ARABIC LETTER DYEH INITIAL FORM                                          | ARABIC LETTER DYEH                             |
+| U+FB76->U+0683 | ARABIC LETTER NYEH ISOLATED FORM                                         | ARABIC LETTER NYEH                             |
+| U+FB77->U+0683 | ARABIC LETTER NYEH FINAL FORM                                            | ARABIC LETTER NYEH                             |
+| U+FB78->U+0683 | ARABIC LETTER NYEH INITIAL FORM                                          | ARABIC LETTER NYEH                             |
+| U+FB7A->U+0686 | ARABIC LETTER TCHEH ISOLATED FORM                                        | ARABIC LETTER TCHEH                            |
+| U+FB7B->U+0686 | ARABIC LETTER TCHEH FINAL FORM                                           | ARABIC LETTER TCHEH                            |
+| U+FB7C->U+0686 | ARABIC LETTER TCHEH INITIAL FORM                                         | ARABIC LETTER TCHEH                            |
+| U+FB7E->U+0687 | ARABIC LETTER TCHEHEH ISOLATED FORM                                      | ARABIC LETTER TCHEHEH                          |
+| U+FB7F->U+0687 | ARABIC LETTER TCHEHEH FINAL FORM                                         | ARABIC LETTER TCHEHEH                          |
+| U+FB80->U+0687 | ARABIC LETTER TCHEHEH INITIAL FORM                                       | ARABIC LETTER TCHEHEH                          |
+| U+FB82->U+068D | ARABIC LETTER DDAHAL ISOLATED FORM                                       | ARABIC LETTER DDAHAL                           |
+| U+FB83->U+068D | ARABIC LETTER DDAHAL FINAL FORM                                          | ARABIC LETTER DDAHAL                           |
+| U+FB84->U+068C | ARABIC LETTER DAHAL ISOLATED FORM                                        | ARABIC LETTER DAHAL                            |
+| U+FB85->U+068C | ARABIC LETTER DAHAL FINAL FORM                                           | ARABIC LETTER DAHAL                            |
+| U+FB86->U+068E | ARABIC LETTER DUL ISOLATED FORM                                          | ARABIC LETTER DUL                              |
+| U+FB87->U+068E | ARABIC LETTER DUL FINAL FORM                                             | ARABIC LETTER DUL                              |
+| U+FB88->U+0688 | ARABIC LETTER DDAL ISOLATED FORM                                         | ARABIC LETTER DDAL                             |
+| U+FB89->U+0688 | ARABIC LETTER DDAL FINAL FORM                                            | ARABIC LETTER DDAL                             |
+| U+FB8A->U+0698 | ARABIC LETTER JEH ISOLATED FORM                                          | ARABIC LETTER JEH                              |
+| U+FB8B->U+0698 | ARABIC LETTER JEH FINAL FORM                                             | ARABIC LETTER JEH                              |
+| U+FB8C->U+0691 | ARABIC LETTER RREH ISOLATED FORM                                         | ARABIC LETTER RREH                             |
+| U+FB8D->U+0691 | ARABIC LETTER RREH FINAL FORM                                            | ARABIC LETTER RREH                             |
+| U+FB8E->U+06A9 | ARABIC LETTER KEHEH ISOLATED FORM                                        | ARABIC LETTER KEHEH                            |
+| U+FB8F->U+06A9 | ARABIC LETTER KEHEH FINAL FORM                                           | ARABIC LETTER KEHEH                            |
+| U+FB90->U+06A9 | ARABIC LETTER KEHEH INITIAL FORM                                         | ARABIC LETTER KEHEH                            |
+| U+FB92->U+06AF | ARABIC LETTER GAF ISOLATED FORM                                          | ARABIC LETTER GAF                              |
+| U+FB93->U+06AF | ARABIC LETTER GAF FINAL FORM                                             | ARABIC LETTER GAF                              |
+| U+FB94->U+06AF | ARABIC LETTER GAF INITIAL FORM                                           | ARABIC LETTER GAF                              |
+| U+FB96->U+06B3 | ARABIC LETTER GUEH ISOLATED FORM                                         | ARABIC LETTER GUEH                             |
+| U+FB97->U+06B3 | ARABIC LETTER GUEH FINAL FORM                                            | ARABIC LETTER GUEH                             |
+| U+FB98->U+06B3 | ARABIC LETTER GUEH INITIAL FORM                                          | ARABIC LETTER GUEH                             |
+| U+FB9A->U+06B1 | ARABIC LETTER NGOEH ISOLATED FORM                                        | ARABIC LETTER NGOEH                            |
+| U+FB9B->U+06B1 | ARABIC LETTER NGOEH FINAL FORM                                           | ARABIC LETTER NGOEH                            |
+| U+FB9C->U+06B1 | ARABIC LETTER NGOEH INITIAL FORM                                         | ARABIC LETTER NGOEH                            |
+| U+FB9E->U+06BA | ARABIC LETTER NOON GHUNNA ISOLATED FORM                                  | ARABIC LETTER NOON GHUNNA                      |
+| U+FB9F->U+06BA | ARABIC LETTER NOON GHUNNA FINAL FORM                                     | ARABIC LETTER NOON GHUNNA                      |
+| U+FBA0->U+06BB | ARABIC LETTER RNOON ISOLATED FORM                                        | ARABIC LETTER RNOON                            |
+| U+FBA1->U+06BB | ARABIC LETTER RNOON FINAL FORM                                           | ARABIC LETTER RNOON                            |
+| U+FBA2->U+06BB | ARABIC LETTER RNOON INITIAL FORM                                         | ARABIC LETTER RNOON                            |
+| U+FBA4->U+06C0 | ARABIC LETTER HEH WITH YEH ABOVE ISOLATED FORM                           | ARABIC LETTER HEH WITH YEH ABOVE               |
+| U+FBA5->U+06C0 | ARABIC LETTER HEH WITH YEH ABOVE FINAL FORM                              | ARABIC LETTER HEH WITH YEH ABOVE               |
+| U+FBA6->U+06C1 | ARABIC LETTER HEH GOAL ISOLATED FORM                                     | ARABIC LETTER HEH GOAL                         |
+| U+FBA7->U+06C1 | ARABIC LETTER HEH GOAL FINAL FORM                                        | ARABIC LETTER HEH GOAL                         |
+| U+FBA8->U+06C1 | ARABIC LETTER HEH GOAL INITIAL FORM                                      | ARABIC LETTER HEH GOAL                         |
+| U+FBAA->U+06BE | ARABIC LETTER HEH DOACHASHMEE ISOLATED FORM                              | ARABIC LETTER HEH DOACHASHMEE                  |
+| U+FBAB->U+06BE | ARABIC LETTER HEH DOACHASHMEE FINAL FORM                                 | ARABIC LETTER HEH DOACHASHMEE                  |
+| U+FBAC->U+06BE | ARABIC LETTER HEH DOACHASHMEE INITIAL FORM                               | ARABIC LETTER HEH DOACHASHMEE                  |
+| U+FBAE->U+06D2 | ARABIC LETTER YEH BARREE ISOLATED FORM                                   | ARABIC LETTER YEH BARREE                       |
+| U+FBAF->U+06D2 | ARABIC LETTER YEH BARREE FINAL FORM                                      | ARABIC LETTER YEH BARREE                       |
+| U+FBB0->U+06D3 | ARABIC LETTER YEH BARREE WITH HAMZA ABOVE ISOLATED FORM                  | ARABIC LETTER YEH BARREE WITH HAMZA ABOVE      |
+| U+FBB1->U+06D3 | ARABIC LETTER YEH BARREE WITH HAMZA ABOVE FINAL FORM                     | ARABIC LETTER YEH BARREE WITH HAMZA ABOVE      |
+| U+FBD3->U+06AD | ARABIC LETTER NG ISOLATED FORM                                           | ARABIC LETTER NG                               |
+| U+FBD4->U+06AD | ARABIC LETTER NG FINAL FORM                                              | ARABIC LETTER NG                               |
+| U+FBD5->U+06AD | ARABIC LETTER NG INITIAL FORM                                            | ARABIC LETTER NG                               |
+| U+FBD7->U+06C7 | ARABIC LETTER U ISOLATED FORM                                            | ARABIC LETTER U                                |
+| U+FBD8->U+06C7 | ARABIC LETTER U FINAL FORM                                               | ARABIC LETTER U                                |
+| U+FBD9->U+06C6 | ARABIC LETTER OE ISOLATED FORM                                           | ARABIC LETTER OE                               |
+| U+FBDA->U+06C6 | ARABIC LETTER OE FINAL FORM                                              | ARABIC LETTER OE                               |
+| U+FBDB->U+06C8 | ARABIC LETTER YU ISOLATED FORM                                           | ARABIC LETTER YU                               |
+| U+FBDC->U+06C8 | ARABIC LETTER YU FINAL FORM                                              | ARABIC LETTER YU                               |
+| U+FBDD->U+0677 | ARABIC LETTER U WITH HAMZA ABOVE ISOLATED FORM                           | ARABIC LETTER U WITH HAMZA ABOVE               |
+| U+FBDE->U+06CB | ARABIC LETTER VE ISOLATED FORM                                           | ARABIC LETTER VE                               |
+| U+FBDF->U+06CB | ARABIC LETTER VE FINAL FORM                                              | ARABIC LETTER VE                               |
+| U+FBE0->U+06C5 | ARABIC LETTER KIRGHIZ OE ISOLATED FORM                                   | ARABIC LETTER KIRGHIZ OE                       |
+| U+FBE1->U+06C5 | ARABIC LETTER KIRGHIZ OE FINAL FORM                                      | ARABIC LETTER KIRGHIZ OE                       |
+| U+FBE2->U+06C9 | ARABIC LETTER KIRGHIZ YU ISOLATED FORM                                   | ARABIC LETTER KIRGHIZ YU                       |
+| U+FBE3->U+06C9 | ARABIC LETTER KIRGHIZ YU FINAL FORM                                      | ARABIC LETTER KIRGHIZ YU                       |
+| U+FBE4->U+06D0 | ARABIC LETTER E ISOLATED FORM                                            | ARABIC LETTER E                                |
+| U+FBE5->U+06D0 | ARABIC LETTER E FINAL FORM                                               | ARABIC LETTER E                                |
+| U+FBE6->U+06D0 | ARABIC LETTER E INITIAL FORM                                             | ARABIC LETTER E                                |
+| U+FBE8->U+0649 | ARABIC LETTER UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA INITIAL FORM            | ARABIC LETTER ALEF MAKSURA                     |
+| U+FBFC->U+06CC | ARABIC LETTER FARSI YEH ISOLATED FORM                                    | ARABIC LETTER FARSI YEH                        |
+| U+FBFD->U+06CC | ARABIC LETTER FARSI YEH FINAL FORM                                       | ARABIC LETTER FARSI YEH                        |
+| U+FBFE->U+06CC | ARABIC LETTER FARSI YEH INITIAL FORM                                     | ARABIC LETTER FARSI YEH                        |
+| U+0400->U+0435 | CYRILLIC CAPITAL LETTER IE WITH GRAVE                                    | CYRILLIC SMALL LETTER IE                       |
+| U+0401->U+0435 | CYRILLIC CAPITAL LETTER IO                                               | CYRILLIC SMALL LETTER IE                       |
+| U+0402->U+0452 | CYRILLIC CAPITAL LETTER DJE                                              | CYRILLIC SMALL LETTER DJE                      |
+| U+0403->U+0433 | CYRILLIC CAPITAL LETTER GJE                                              | CYRILLIC SMALL LETTER GHE                      |
+| U+0404->U+0454 | CYRILLIC CAPITAL LETTER UKRAINIAN IE                                     | CYRILLIC SMALL LETTER UKRAINIAN IE             |
+| U+0405->U+0455 | CYRILLIC CAPITAL LETTER DZE                                              | CYRILLIC SMALL LETTER DZE                      |
+| U+0406->U+0456 | CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I                         | CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I |
+| U+0407->U+0456 | CYRILLIC CAPITAL LETTER YI                                               | CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I |
+| U+0457->U+0456 | CYRILLIC SMALL LETTER YI                                                 | CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I |
+| U+040C->U+043A | CYRILLIC CAPITAL LETTER KJE                                              | CYRILLIC SMALL LETTER KA                       |
+| U+040D->U+0438 | CYRILLIC CAPITAL LETTER I WITH GRAVE                                     | CYRILLIC SMALL LETTER I                        |
+| U+040E->U+0443 | CYRILLIC CAPITAL LETTER SHORT U                                          | CYRILLIC SMALL LETTER U                        |
+| U+040F->U+045F | CYRILLIC CAPITAL LETTER DZHE                                             | CYRILLIC SMALL LETTER DZHE                     |
+| U+0450->U+0435 | CYRILLIC SMALL LETTER IE WITH GRAVE                                      | CYRILLIC SMALL LETTER IE                       |
+| U+0451->U+0435 | CYRILLIC SMALL LETTER IO                                                 | CYRILLIC SMALL LETTER IE                       |
+| U+0453->U+0433 | CYRILLIC SMALL LETTER GJE                                                | CYRILLIC SMALL LETTER GHE                      |
+| U+045C->U+043A | CYRILLIC SMALL LETTER KJE                                                | CYRILLIC SMALL LETTER KA                       |
+| U+045D->U+0438 | CYRILLIC SMALL LETTER I WITH GRAVE                                       | CYRILLIC SMALL LETTER I                        |
+| U+045E->U+0443 | CYRILLIC SMALL LETTER SHORT U                                            | CYRILLIC SMALL LETTER U                        |
+| U+0460->U+0461 | CYRILLIC CAPITAL LETTER OMEGA                                            | CYRILLIC SMALL LETTER OMEGA                    |
+| U+0462->U+0463 | CYRILLIC CAPITAL LETTER YAT                                              | CYRILLIC SMALL LETTER YAT                      |
+| U+0464->U+0465 | CYRILLIC CAPITAL LETTER IOTIFIED E                                       | CYRILLIC SMALL LETTER IOTIFIED E               |
+| U+0466->U+0467 | CYRILLIC CAPITAL LETTER LITTLE YUS                                       | CYRILLIC SMALL LETTER LITTLE YUS               |
+| U+0468->U+0469 | CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS                              | CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS      |
+| U+046A->U+046B | CYRILLIC CAPITAL LETTER BIG YUS                                          | CYRILLIC SMALL LETTER BIG YUS                  |
+| U+046C->U+046D | CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS                                 | CYRILLIC SMALL LETTER IOTIFIED BIG YUS         |
+| U+046E->U+046F | CYRILLIC CAPITAL LETTER KSI                                              | CYRILLIC SMALL LETTER KSI                      |
+| U+0470->U+0471 | CYRILLIC CAPITAL LETTER PSI                                              | CYRILLIC SMALL LETTER PSI                      |
+| U+0472->U+0473 | CYRILLIC CAPITAL LETTER FITA                                             | CYRILLIC SMALL LETTER FITA                     |
+| U+0474->U+0475 | CYRILLIC CAPITAL LETTER IZHITSA                                          | CYRILLIC SMALL LETTER IZHITSA                  |
+| U+0476->U+0475 | CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT                 | CYRILLIC SMALL LETTER IZHITSA                  |
+| U+0477->U+0475 | CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT                   | CYRILLIC SMALL LETTER IZHITSA                  |
+| U+0478->U+0479 | CYRILLIC CAPITAL LETTER UK                                               | CYRILLIC SMALL LETTER UK                       |
+| U+047A->U+047B | CYRILLIC CAPITAL LETTER ROUND OMEGA                                      | CYRILLIC SMALL LETTER ROUND OMEGA              |
+| U+047C->U+047D | CYRILLIC CAPITAL LETTER OMEGA WITH TITLO                                 | CYRILLIC SMALL LETTER OMEGA WITH TITLO         |
+| U+047E->U+047F | CYRILLIC CAPITAL LETTER OT                                               | CYRILLIC SMALL LETTER OT                       |
+| U+0480->U+0481 | CYRILLIC CAPITAL LETTER KOPPA                                            | CYRILLIC SMALL LETTER KOPPA                    |
+| U+048A->U+0438 | CYRILLIC CAPITAL LETTER SHORT I WITH TAIL                                | CYRILLIC SMALL LETTER I                        |
+| U+048B->U+0438 | CYRILLIC SMALL LETTER SHORT I WITH TAIL                                  | CYRILLIC SMALL LETTER I                        |
+| U+048C->U+044C | CYRILLIC CAPITAL LETTER SEMISOFT SIGN                                    | CYRILLIC SMALL LETTER SOFT SIGN                |
+| U+048D->U+044C | CYRILLIC SMALL LETTER SEMISOFT SIGN                                      | CYRILLIC SMALL LETTER SOFT SIGN                |
+| U+048E->U+0440 | CYRILLIC CAPITAL LETTER ER WITH TICK                                     | CYRILLIC SMALL LETTER ER                       |
+| U+048F->U+0440 | CYRILLIC SMALL LETTER ER WITH TICK                                       | CYRILLIC SMALL LETTER ER                       |
+| U+0490->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH UPTURN                                  | CYRILLIC SMALL LETTER GHE                      |
+| U+0491->U+0433 | CYRILLIC SMALL LETTER GHE WITH UPTURN                                    | CYRILLIC SMALL LETTER GHE                      |
+| U+0490->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH UPTURN                                  | CYRILLIC SMALL LETTER GHE                      |
+| U+0491->U+0433 | CYRILLIC SMALL LETTER GHE WITH UPTURN                                    | CYRILLIC SMALL LETTER GHE                      |
+| U+0492->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH STROKE                                  | CYRILLIC SMALL LETTER GHE                      |
+| U+0493->U+0433 | CYRILLIC SMALL LETTER GHE WITH STROKE                                    | CYRILLIC SMALL LETTER GHE                      |
+| U+0494->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK                             | CYRILLIC SMALL LETTER GHE                      |
+| U+0495->U+0433 | CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK                               | CYRILLIC SMALL LETTER GHE                      |
+| U+0496->U+0436 | CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER                               | CYRILLIC SMALL LETTER ZHE                      |
+| U+0497->U+0436 | CYRILLIC SMALL LETTER ZHE WITH DESCENDER                                 | CYRILLIC SMALL LETTER ZHE                      |
+| U+0498->U+0437 | CYRILLIC CAPITAL LETTER ZE WITH DESCENDER                                | CYRILLIC SMALL LETTER ZE                       |
+| U+0499->U+0437 | CYRILLIC SMALL LETTER ZE WITH DESCENDER                                  | CYRILLIC SMALL LETTER ZE                       |
+| U+049A->U+043A | CYRILLIC CAPITAL LETTER KA WITH DESCENDER                                | CYRILLIC SMALL LETTER KA                       |
+| U+049B->U+043A | CYRILLIC SMALL LETTER KA WITH DESCENDER                                  | CYRILLIC SMALL LETTER KA                       |
+| U+049C->U+043A | CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE                          | CYRILLIC SMALL LETTER KA                       |
+| U+049D->U+043A | CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE                            | CYRILLIC SMALL LETTER KA                       |
+| U+049E->U+043A | CYRILLIC CAPITAL LETTER KA WITH STROKE                                   | CYRILLIC SMALL LETTER KA                       |
+| U+049F->U+043A | CYRILLIC SMALL LETTER KA WITH STROKE                                     | CYRILLIC SMALL LETTER KA                       |
+| U+04A0->U+043A | CYRILLIC CAPITAL LETTER BASHKIR KA                                       | CYRILLIC SMALL LETTER KA                       |
+| U+04A1->U+043A | CYRILLIC SMALL LETTER BASHKIR KA                                         | CYRILLIC SMALL LETTER KA                       |
+| U+04A2->U+043D | CYRILLIC CAPITAL LETTER EN WITH DESCENDER                                | CYRILLIC SMALL LETTER EN                       |
+| U+04A3->U+043D | CYRILLIC SMALL LETTER EN WITH DESCENDER                                  | CYRILLIC SMALL LETTER EN                       |
+| U+04A4->U+043D | CYRILLIC CAPITAL LIGATURE EN GHE                                         | CYRILLIC SMALL LETTER EN                       |
+| U+04A5->U+043D | CYRILLIC SMALL LIGATURE EN GHE                                           | CYRILLIC SMALL LETTER EN                       |
+| U+04A6->U+043F | CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK                              | CYRILLIC SMALL LETTER PE                       |
+| U+04A7->U+043F | CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK                                | CYRILLIC SMALL LETTER PE                       |
+| U+04A8->U+04A9 | CYRILLIC CAPITAL LETTER ABKHASIAN HA                                     | CYRILLIC SMALL LETTER ABKHASIAN HA             |
+| U+04AA->U+0441 | CYRILLIC CAPITAL LETTER ES WITH DESCENDER                                | CYRILLIC SMALL LETTER ES                       |
+| U+04AB->U+0441 | CYRILLIC SMALL LETTER ES WITH DESCENDER                                  | CYRILLIC SMALL LETTER ES                       |
+| U+04AC->U+0442 | CYRILLIC CAPITAL LETTER TE WITH DESCENDER                                | CYRILLIC SMALL LETTER TE                       |
+| U+04AD->U+0442 | CYRILLIC SMALL LETTER TE WITH DESCENDER                                  | CYRILLIC SMALL LETTER TE                       |
+| U+04AE->U+0443 | CYRILLIC CAPITAL LETTER STRAIGHT U                                       | CYRILLIC SMALL LETTER U                        |
+| U+04AF->U+0443 | CYRILLIC SMALL LETTER STRAIGHT U                                         | CYRILLIC SMALL LETTER U                        |
+| U+04B0->U+0443 | CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE                           | CYRILLIC SMALL LETTER U                        |
+| U+04B1->U+0443 | CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE                             | CYRILLIC SMALL LETTER U                        |
+| U+04B2->U+0445 | CYRILLIC CAPITAL LETTER HA WITH DESCENDER                                | CYRILLIC SMALL LETTER HA                       |
+| U+04B3->U+0445 | CYRILLIC SMALL LETTER HA WITH DESCENDER                                  | CYRILLIC SMALL LETTER HA                       |
+| U+04B4->U+04B5 | CYRILLIC CAPITAL LIGATURE TE TSE                                         | CYRILLIC SMALL LIGATURE TE TSE                 |
+| U+04B6->U+0447 | CYRILLIC CAPITAL LETTER CHE WITH DESCENDER                               | CYRILLIC SMALL LETTER CHE                      |
+| U+04B7->U+0447 | CYRILLIC SMALL LETTER CHE WITH DESCENDER                                 | CYRILLIC SMALL LETTER CHE                      |
+| U+04B8->U+0447 | CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE                         | CYRILLIC SMALL LETTER CHE                      |
+| U+04B9->U+0447 | CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE                           | CYRILLIC SMALL LETTER CHE                      |
+| U+04BA->U+04BB | CYRILLIC CAPITAL LETTER SHHA                                             | CYRILLIC SMALL LETTER SHHA                     |
+| U+04BC->U+04BD | CYRILLIC CAPITAL LETTER ABKHASIAN CHE                                    | CYRILLIC SMALL LETTER ABKHASIAN CHE            |
+| U+04BE->U+04BD | CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER                     | CYRILLIC SMALL LETTER ABKHASIAN CHE            |
+| U+04BF->U+04BD | CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER                       | CYRILLIC SMALL LETTER ABKHASIAN CHE            |
+| U+04C0->U+04CF | CYRILLIC LETTER PALOCHKA                                                 | CYRILLIC SMALL LETTER PALOCHKA                 |
+| U+04C1->U+0436 | CYRILLIC CAPITAL LETTER ZHE WITH BREVE                                   | CYRILLIC SMALL LETTER ZHE                      |
+| U+04C2->U+0436 | CYRILLIC SMALL LETTER ZHE WITH BREVE                                     | CYRILLIC SMALL LETTER ZHE                      |
+| U+04C3->U+043A | CYRILLIC CAPITAL LETTER KA WITH HOOK                                     | CYRILLIC SMALL LETTER KA                       |
+| U+04C4->U+043A | CYRILLIC SMALL LETTER KA WITH HOOK                                       | CYRILLIC SMALL LETTER KA                       |
+| U+04C5->U+043B | CYRILLIC CAPITAL LETTER EL WITH TAIL                                     | CYRILLIC SMALL LETTER EL                       |
+| U+04C6->U+043B | CYRILLIC SMALL LETTER EL WITH TAIL                                       | CYRILLIC SMALL LETTER EL                       |
+| U+04C7->U+043D | CYRILLIC CAPITAL LETTER EN WITH HOOK                                     | CYRILLIC SMALL LETTER EN                       |
+| U+04C8->U+043D | CYRILLIC SMALL LETTER EN WITH HOOK                                       | CYRILLIC SMALL LETTER EN                       |
+| U+04C9->U+043D | CYRILLIC CAPITAL LETTER EN WITH TAIL                                     | CYRILLIC SMALL LETTER EN                       |
+| U+04CA->U+043D | CYRILLIC SMALL LETTER EN WITH TAIL                                       | CYRILLIC SMALL LETTER EN                       |
+| U+04CB->U+0447 | CYRILLIC CAPITAL LETTER KHAKASSIAN CHE                                   | CYRILLIC SMALL LETTER CHE                      |
+| U+04CC->U+0447 | CYRILLIC SMALL LETTER KHAKASSIAN CHE                                     | CYRILLIC SMALL LETTER CHE                      |
+| U+04CD->U+043C | CYRILLIC CAPITAL LETTER EM WITH TAIL                                     | CYRILLIC SMALL LETTER EM                       |
+| U+04CE->U+043C | CYRILLIC SMALL LETTER EM WITH TAIL                                       | CYRILLIC SMALL LETTER EM                       |
+| U+04D0->U+0430 | CYRILLIC CAPITAL LETTER A WITH BREVE                                     | CYRILLIC SMALL LETTER A                        |
+| U+04D1->U+0430 | CYRILLIC SMALL LETTER A WITH BREVE                                       | CYRILLIC SMALL LETTER A                        |
+| U+04D2->U+0430 | CYRILLIC CAPITAL LETTER A WITH DIAERESIS                                 | CYRILLIC SMALL LETTER A                        |
+| U+04D3->U+0430 | CYRILLIC SMALL LETTER A WITH DIAERESIS                                   | CYRILLIC SMALL LETTER A                        |
+| U+04D4->U+00E6 | CYRILLIC CAPITAL LIGATURE A IE                                           | LATIN SMALL LETTER AE                          |
+| U+04D5->U+00E6 | CYRILLIC SMALL LIGATURE A IE                                             | LATIN SMALL LETTER AE                          |
+| U+04D6->U+0435 | CYRILLIC CAPITAL LETTER IE WITH BREVE                                    | CYRILLIC SMALL LETTER IE                       |
+| U+04D7->U+0435 | CYRILLIC SMALL LETTER IE WITH BREVE                                      | CYRILLIC SMALL LETTER IE                       |
+| U+04D8->U+04D9 | CYRILLIC CAPITAL LETTER SCHWA                                            | CYRILLIC SMALL LETTER SCHWA                    |
+| U+04DA->U+04D9 | CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS                             | CYRILLIC SMALL LETTER SCHWA                    |
+| U+04DB->U+04D9 | CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS                               | CYRILLIC SMALL LETTER SCHWA                    |
+| U+04DC->U+0436 | CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS                               | CYRILLIC SMALL LETTER ZHE                      |
+| U+04DD->U+0436 | CYRILLIC SMALL LETTER ZHE WITH DIAERESIS                                 | CYRILLIC SMALL LETTER ZHE                      |
+| U+04DE->U+0437 | CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS                                | CYRILLIC SMALL LETTER ZE                       |
+| U+04DF->U+0437 | CYRILLIC SMALL LETTER ZE WITH DIAERESIS                                  | CYRILLIC SMALL LETTER ZE                       |
+| U+04E0->U+04E1 | CYRILLIC CAPITAL LETTER ABKHASIAN DZE                                    | CYRILLIC SMALL LETTER ABKHASIAN DZE            |
+| U+04E2->U+0438 | CYRILLIC CAPITAL LETTER I WITH MACRON                                    | CYRILLIC SMALL LETTER I                        |
+| U+04E3->U+0438 | CYRILLIC SMALL LETTER I WITH MACRON                                      | CYRILLIC SMALL LETTER I                        |
+| U+04E4->U+0438 | CYRILLIC CAPITAL LETTER I WITH DIAERESIS                                 | CYRILLIC SMALL LETTER I                        |
+| U+04E5->U+0438 | CYRILLIC SMALL LETTER I WITH DIAERESIS                                   | CYRILLIC SMALL LETTER I                        |
+| U+04E6->U+043E | CYRILLIC CAPITAL LETTER O WITH DIAERESIS                                 | CYRILLIC SMALL LETTER O                        |
+| U+04E7->U+043E | CYRILLIC SMALL LETTER O WITH DIAERESIS                                   | CYRILLIC SMALL LETTER O                        |
+| U+04E8->U+043E | CYRILLIC CAPITAL LETTER BARRED O                                         | CYRILLIC SMALL LETTER O                        |
+| U+04E9->U+043E | CYRILLIC SMALL LETTER BARRED O                                           | CYRILLIC SMALL LETTER O                        |
+| U+04EA->U+043E | CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS                          | CYRILLIC SMALL LETTER O                        |
+| U+04EB->U+043E | CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS                            | CYRILLIC SMALL LETTER O                        |
+| U+04EC->U+044D | CYRILLIC CAPITAL LETTER E WITH DIAERESIS                                 | CYRILLIC SMALL LETTER E                        |
+| U+04ED->U+044D | CYRILLIC SMALL LETTER E WITH DIAERESIS                                   | CYRILLIC SMALL LETTER E                        |
+| U+04EE->U+0443 | CYRILLIC CAPITAL LETTER U WITH MACRON                                    | CYRILLIC SMALL LETTER U                        |
+| U+04EF->U+0443 | CYRILLIC SMALL LETTER U WITH MACRON                                      | CYRILLIC SMALL LETTER U                        |
+| U+04F0->U+0443 | CYRILLIC CAPITAL LETTER U WITH DIAERESIS                                 | CYRILLIC SMALL LETTER U                        |
+| U+04F1->U+0443 | CYRILLIC SMALL LETTER U WITH DIAERESIS                                   | CYRILLIC SMALL LETTER U                        |
+| U+04F2->U+0443 | CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE                              | CYRILLIC SMALL LETTER U                        |
+| U+04F3->U+0443 | CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE                                | CYRILLIC SMALL LETTER U                        |
+| U+04F4->U+0447 | CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS                               | CYRILLIC SMALL LETTER CHE                      |
+| U+04F5->U+0447 | CYRILLIC SMALL LETTER CHE WITH DIAERESIS                                 | CYRILLIC SMALL LETTER CHE                      |
+| U+04F6->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH DESCENDER                               | CYRILLIC SMALL LETTER GHE                      |
+| U+04F7->U+0433 | CYRILLIC SMALL LETTER GHE WITH DESCENDER                                 | CYRILLIC SMALL LETTER GHE                      |
+| U+04F8->U+044B | CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS                              | CYRILLIC SMALL LETTER YERU                     |
+| U+04F9->U+044B | CYRILLIC SMALL LETTER YERU WITH DIAERESIS                                | CYRILLIC SMALL LETTER YERU                     |
+| U+04FA->U+0433 | CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK                         | CYRILLIC SMALL LETTER GHE                      |
+| U+04FB->U+0433 | CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK                           | CYRILLIC SMALL LETTER GHE                      |
+| U+04FC->U+0445 | CYRILLIC CAPITAL LETTER HA WITH HOOK                                     | CYRILLIC SMALL LETTER HA                       |
+| U+04FD->U+0445 | CYRILLIC SMALL LETTER HA WITH HOOK                                       | CYRILLIC SMALL LETTER HA                       |
+| U+04FE->U+0445 | CYRILLIC CAPITAL LETTER HA WITH STROKE                                   | CYRILLIC SMALL LETTER HA                       |
+| U+04FF->U+0445 | CYRILLIC SMALL LETTER HA WITH STROKE                                     | CYRILLIC SMALL LETTER HA                       |
+| U+0419->U+0438 | CYRILLIC CAPITAL LETTER SHORT I                                          | CYRILLIC SMALL LETTER I                        |
+| U+0386->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH TONOS                                    | GREEK SMALL LETTER ALPHA                       |
+| U+0388->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH TONOS                                  | GREEK SMALL LETTER EPSILON                     |
+| U+0389->U+03B7 | GREEK CAPITAL LETTER ETA WITH TONOS                                      | GREEK SMALL LETTER ETA                         |
+| U+038A->U+03B9 | GREEK CAPITAL LETTER IOTA WITH TONOS                                     | GREEK SMALL LETTER IOTA                        |
+| U+038C->U+03BF | GREEK CAPITAL LETTER OMICRON WITH TONOS                                  | GREEK SMALL LETTER OMICRON                     |
+| U+038E->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH TONOS                                  | GREEK SMALL LETTER UPSILON                     |
+| U+038F->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH TONOS                                    | GREEK SMALL LETTER OMEGA                       |
+| U+0390->U+03B9 | GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS                         | GREEK SMALL LETTER IOTA                        |
+| U+03AA->U+03B9 | GREEK CAPITAL LETTER IOTA WITH DIALYTIKA                                 | GREEK SMALL LETTER IOTA                        |
+| U+03AB->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA                              | GREEK SMALL LETTER UPSILON                     |
+| U+03AC->U+03B1 | GREEK SMALL LETTER ALPHA WITH TONOS                                      | GREEK SMALL LETTER ALPHA                       |
+| U+03AD->U+03B5 | GREEK SMALL LETTER EPSILON WITH TONOS                                    | GREEK SMALL LETTER EPSILON                     |
+| U+03AE->U+03B7 | GREEK SMALL LETTER ETA WITH TONOS                                        | GREEK SMALL LETTER ETA                         |
+| U+03AF->U+03B9 | GREEK SMALL LETTER IOTA WITH TONOS                                       | GREEK SMALL LETTER IOTA                        |
+| U+03B0->U+03C5 | GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS                      | GREEK SMALL LETTER UPSILON                     |
+| U+03CA->U+03B9 | GREEK SMALL LETTER IOTA WITH DIALYTIKA                                   | GREEK SMALL LETTER IOTA                        |
+| U+03CB->U+03C5 | GREEK SMALL LETTER UPSILON WITH DIALYTIKA                                | GREEK SMALL LETTER UPSILON                     |
+| U+03CC->U+03BF | GREEK SMALL LETTER OMICRON WITH TONOS                                    | GREEK SMALL LETTER OMICRON                     |
+| U+03CD->U+03C5 | GREEK SMALL LETTER UPSILON WITH TONOS                                    | GREEK SMALL LETTER UPSILON                     |
+| U+03CE->U+03C9 | GREEK SMALL LETTER OMEGA WITH TONOS                                      | GREEK SMALL LETTER OMEGA                       |
+| U+03D0->U+03B2 | GREEK BETA SYMBOL                                                        | GREEK SMALL LETTER BETA                        |
+| U+03D1->U+03B8 | GREEK THETA SYMBOL                                                       | GREEK SMALL LETTER THETA                       |
+| U+03D2->U+03C5 | GREEK UPSILON WITH HOOK SYMBOL                                           | GREEK SMALL LETTER UPSILON                     |
+| U+03D3->U+03C5 | GREEK UPSILON WITH ACUTE AND HOOK SYMBOL                                 | GREEK SMALL LETTER UPSILON                     |
+| U+03D4->U+03C5 | GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL                             | GREEK SMALL LETTER UPSILON                     |
+| U+03D5->U+03C6 | GREEK PHI SYMBOL                                                         | GREEK SMALL LETTER PHI                         |
+| U+03D6->U+03C0 | GREEK PI SYMBOL                                                          | GREEK SMALL LETTER PI                          |
+| U+03D8->U+03D9 | GREEK LETTER ARCHAIC KOPPA                                               | GREEK SMALL LETTER ARCHAIC KOPPA               |
+| U+03DA->U+03DB | GREEK LETTER STIGMA                                                      | GREEK SMALL LETTER STIGMA                      |
+| U+03DC->U+03DD | GREEK LETTER DIGAMMA                                                     | GREEK SMALL LETTER DIGAMMA                     |
+| U+03DE->U+03DF | GREEK LETTER KOPPA                                                       | GREEK SMALL LETTER KOPPA                       |
+| U+03E0->U+03E1 | GREEK LETTER SAMPI                                                       | GREEK SMALL LETTER SAMPI                       |
+| U+03E2->U+03E3 | COPTIC CAPITAL LETTER SHEI                                               | COPTIC SMALL LETTER SHEI                       |
+| U+03E4->U+03E5 | COPTIC CAPITAL LETTER FEI                                                | COPTIC SMALL LETTER FEI                        |
+| U+03E6->U+03E7 | COPTIC CAPITAL LETTER KHEI                                               | COPTIC SMALL LETTER KHEI                       |
+| U+03E8->U+03E9 | COPTIC CAPITAL LETTER HORI                                               | COPTIC SMALL LETTER HORI                       |
+| U+03EA->U+03EB | COPTIC CAPITAL LETTER GANGIA                                             | COPTIC SMALL LETTER GANGIA                     |
+| U+03EC->U+03ED | COPTIC CAPITAL LETTER SHIMA                                              | COPTIC SMALL LETTER SHIMA                      |
+| U+03EE->U+03EF | COPTIC CAPITAL LETTER DEI                                                | COPTIC SMALL LETTER DEI                        |
+| U+03F0->U+03BA | GREEK KAPPA SYMBOL                                                       | GREEK SMALL LETTER KAPPA                       |
+| U+03F1->U+03C1 | GREEK RHO SYMBOL                                                         | GREEK SMALL LETTER RHO                         |
+| U+03F2->U+03C3 | GREEK LUNATE SIGMA SYMBOL                                                | GREEK SMALL LETTER SIGMA                       |
+| U+03F4->U+03B8 | GREEK CAPITAL THETA SYMBOL                                               | GREEK SMALL LETTER THETA                       |
+| U+03F5->U+03B5 | GREEK LUNATE EPSILON SYMBOL                                              | GREEK SMALL LETTER EPSILON                     |
+| U+03F6->U+03B5 | GREEK REVERSED LUNATE EPSILON SYMBOL                                     | GREEK SMALL LETTER EPSILON                     |
+| U+03F7->U+03F8 | GREEK CAPITAL LETTER SHO                                                 | GREEK SMALL LETTER SHO                         |
+| U+03F9->U+03C3 | GREEK CAPITAL LUNATE SIGMA SYMBOL                                        | GREEK SMALL LETTER SIGMA                       |
+| U+03FA->U+03FB | GREEK CAPITAL LETTER SAN                                                 | GREEK SMALL LETTER SAN                         |
+| U+1F00->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI                                      | GREEK SMALL LETTER ALPHA                       |
+| U+1F01->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA                                      | GREEK SMALL LETTER ALPHA                       |
+| U+1F02->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA                            | GREEK SMALL LETTER ALPHA                       |
+| U+1F03->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA                            | GREEK SMALL LETTER ALPHA                       |
+| U+1F04->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA                             | GREEK SMALL LETTER ALPHA                       |
+| U+1F05->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA                             | GREEK SMALL LETTER ALPHA                       |
+| U+1F06->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI                      | GREEK SMALL LETTER ALPHA                       |
+| U+1F07->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI                      | GREEK SMALL LETTER ALPHA                       |
+| U+1F08->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI                                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F09->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA                                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F0A->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA                          | GREEK SMALL LETTER ALPHA                       |
+| U+1F0B->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA                          | GREEK SMALL LETTER ALPHA                       |
+| U+1F0C->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA                           | GREEK SMALL LETTER ALPHA                       |
+| U+1F0D->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA                           | GREEK SMALL LETTER ALPHA                       |
+| U+1F0E->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F0F->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F10->U+03B5 | GREEK SMALL LETTER EPSILON WITH PSILI                                    | GREEK SMALL LETTER EPSILON                     |
+| U+1F11->U+03B5 | GREEK SMALL LETTER EPSILON WITH DASIA                                    | GREEK SMALL LETTER EPSILON                     |
+| U+1F12->U+03B5 | GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA                          | GREEK SMALL LETTER EPSILON                     |
+| U+1F13->U+03B5 | GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA                          | GREEK SMALL LETTER EPSILON                     |
+| U+1F14->U+03B5 | GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA                           | GREEK SMALL LETTER EPSILON                     |
+| U+1F15->U+03B5 | GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA                           | GREEK SMALL LETTER EPSILON                     |
+| U+1F18->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH PSILI                                  | GREEK SMALL LETTER EPSILON                     |
+| U+1F19->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH DASIA                                  | GREEK SMALL LETTER EPSILON                     |
+| U+1F1A->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA                        | GREEK SMALL LETTER EPSILON                     |
+| U+1F1B->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA                        | GREEK SMALL LETTER EPSILON                     |
+| U+1F1C->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA                         | GREEK SMALL LETTER EPSILON                     |
+| U+1F1D->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA                         | GREEK SMALL LETTER EPSILON                     |
+| U+1F20->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI                                        | GREEK SMALL LETTER ETA                         |
+| U+1F21->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA                                        | GREEK SMALL LETTER ETA                         |
+| U+1F22->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND VARIA                              | GREEK SMALL LETTER ETA                         |
+| U+1F23->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND VARIA                              | GREEK SMALL LETTER ETA                         |
+| U+1F24->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND OXIA                               | GREEK SMALL LETTER ETA                         |
+| U+1F25->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND OXIA                               | GREEK SMALL LETTER ETA                         |
+| U+1F26->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI                        | GREEK SMALL LETTER ETA                         |
+| U+1F27->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI                        | GREEK SMALL LETTER ETA                         |
+| U+1F28->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI                                      | GREEK SMALL LETTER ETA                         |
+| U+1F29->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA                                      | GREEK SMALL LETTER ETA                         |
+| U+1F2A->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA                            | GREEK SMALL LETTER ETA                         |
+| U+1F2B->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA                            | GREEK SMALL LETTER ETA                         |
+| U+1F2C->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA                             | GREEK SMALL LETTER ETA                         |
+| U+1F2D->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA                             | GREEK SMALL LETTER ETA                         |
+| U+1F2E->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI                      | GREEK SMALL LETTER ETA                         |
+| U+1F2F->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI                      | GREEK SMALL LETTER ETA                         |
+| U+1F30->U+03B9 | GREEK SMALL LETTER IOTA WITH PSILI                                       | GREEK SMALL LETTER IOTA                        |
+| U+1F31->U+03B9 | GREEK SMALL LETTER IOTA WITH DASIA                                       | GREEK SMALL LETTER IOTA                        |
+| U+1F32->U+03B9 | GREEK SMALL LETTER IOTA WITH PSILI AND VARIA                             | GREEK SMALL LETTER IOTA                        |
+| U+1F33->U+03B9 | GREEK SMALL LETTER IOTA WITH DASIA AND VARIA                             | GREEK SMALL LETTER IOTA                        |
+| U+1F34->U+03B9 | GREEK SMALL LETTER IOTA WITH PSILI AND OXIA                              | GREEK SMALL LETTER IOTA                        |
+| U+1F35->U+03B9 | GREEK SMALL LETTER IOTA WITH DASIA AND OXIA                              | GREEK SMALL LETTER IOTA                        |
+| U+1F36->U+03B9 | GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI                       | GREEK SMALL LETTER IOTA                        |
+| U+1F37->U+03B9 | GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI                       | GREEK SMALL LETTER IOTA                        |
+| U+1F38->U+03B9 | GREEK CAPITAL LETTER IOTA WITH PSILI                                     | GREEK SMALL LETTER IOTA                        |
+| U+1F39->U+03B9 | GREEK CAPITAL LETTER IOTA WITH DASIA                                     | GREEK SMALL LETTER IOTA                        |
+| U+1F3A->U+03B9 | GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA                           | GREEK SMALL LETTER IOTA                        |
+| U+1F3B->U+03B9 | GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA                           | GREEK SMALL LETTER IOTA                        |
+| U+1F3C->U+03B9 | GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA                            | GREEK SMALL LETTER IOTA                        |
+| U+1F3D->U+03B9 | GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA                            | GREEK SMALL LETTER IOTA                        |
+| U+1F3E->U+03B9 | GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI                     | GREEK SMALL LETTER IOTA                        |
+| U+1F3F->U+03B9 | GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI                     | GREEK SMALL LETTER IOTA                        |
+| U+1F40->U+03BF | GREEK SMALL LETTER OMICRON WITH PSILI                                    | GREEK SMALL LETTER OMICRON                     |
+| U+1F41->U+03BF | GREEK SMALL LETTER OMICRON WITH DASIA                                    | GREEK SMALL LETTER OMICRON                     |
+| U+1F42->U+03BF | GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA                          | GREEK SMALL LETTER OMICRON                     |
+| U+1F43->U+03BF | GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA                          | GREEK SMALL LETTER OMICRON                     |
+| U+1F44->U+03BF | GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA                           | GREEK SMALL LETTER OMICRON                     |
+| U+1F45->U+03BF | GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA                           | GREEK SMALL LETTER OMICRON                     |
+| U+1F48->U+03BF | GREEK CAPITAL LETTER OMICRON WITH PSILI                                  | GREEK SMALL LETTER OMICRON                     |
+| U+1F49->U+03BF | GREEK CAPITAL LETTER OMICRON WITH DASIA                                  | GREEK SMALL LETTER OMICRON                     |
+| U+1F4A->U+03BF | GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA                        | GREEK SMALL LETTER OMICRON                     |
+| U+1F4B->U+03BF | GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA                        | GREEK SMALL LETTER OMICRON                     |
+| U+1F4C->U+03BF | GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA                         | GREEK SMALL LETTER OMICRON                     |
+| U+1F4D->U+03BF | GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA                         | GREEK SMALL LETTER OMICRON                     |
+| U+1F50->U+03C5 | GREEK SMALL LETTER UPSILON WITH PSILI                                    | GREEK SMALL LETTER UPSILON                     |
+| U+1F51->U+03C5 | GREEK SMALL LETTER UPSILON WITH DASIA                                    | GREEK SMALL LETTER UPSILON                     |
+| U+1F52->U+03C5 | GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA                          | GREEK SMALL LETTER UPSILON                     |
+| U+1F53->U+03C5 | GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA                          | GREEK SMALL LETTER UPSILON                     |
+| U+1F54->U+03C5 | GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA                           | GREEK SMALL LETTER UPSILON                     |
+| U+1F55->U+03C5 | GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA                           | GREEK SMALL LETTER UPSILON                     |
+| U+1F56->U+03C5 | GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI                    | GREEK SMALL LETTER UPSILON                     |
+| U+1F57->U+03C5 | GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI                    | GREEK SMALL LETTER UPSILON                     |
+| U+1F59->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH DASIA                                  | GREEK SMALL LETTER UPSILON                     |
+| U+1F5B->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA                        | GREEK SMALL LETTER UPSILON                     |
+| U+1F5D->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA                         | GREEK SMALL LETTER UPSILON                     |
+| U+1F5F->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI                  | GREEK SMALL LETTER UPSILON                     |
+| U+1F60->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI                                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F61->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA                                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F62->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA                            | GREEK SMALL LETTER OMEGA                       |
+| U+1F63->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA                            | GREEK SMALL LETTER OMEGA                       |
+| U+1F64->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA                             | GREEK SMALL LETTER OMEGA                       |
+| U+1F65->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA                             | GREEK SMALL LETTER OMEGA                       |
+| U+1F66->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F67->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F64->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA                             | GREEK SMALL LETTER OMEGA                       |
+| U+1F65->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA                             | GREEK SMALL LETTER OMEGA                       |
+| U+1F66->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F67->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F68->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI                                    | GREEK SMALL LETTER OMEGA                       |
+| U+1F69->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA                                    | GREEK SMALL LETTER OMEGA                       |
+| U+1F6A->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA                          | GREEK SMALL LETTER OMEGA                       |
+| U+1F6B->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA                          | GREEK SMALL LETTER OMEGA                       |
+| U+1F6C->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA                           | GREEK SMALL LETTER OMEGA                       |
+| U+1F6D->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA                           | GREEK SMALL LETTER OMEGA                       |
+| U+1F6E->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI                    | GREEK SMALL LETTER OMEGA                       |
+| U+1F6F->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI                    | GREEK SMALL LETTER OMEGA                       |
+| U+1F70->U+03B1 | GREEK SMALL LETTER ALPHA WITH VARIA                                      | GREEK SMALL LETTER ALPHA                       |
+| U+1F71->U+03B1 | GREEK SMALL LETTER ALPHA WITH OXIA                                       | GREEK SMALL LETTER ALPHA                       |
+| U+1F72->U+03B5 | GREEK SMALL LETTER EPSILON WITH VARIA                                    | GREEK SMALL LETTER EPSILON                     |
+| U+1F73->U+03B5 | GREEK SMALL LETTER EPSILON WITH OXIA                                     | GREEK SMALL LETTER EPSILON                     |
+| U+1F74->U+03B7 | GREEK SMALL LETTER ETA WITH VARIA                                        | GREEK SMALL LETTER ETA                         |
+| U+1F75->U+03B7 | GREEK SMALL LETTER ETA WITH OXIA                                         | GREEK SMALL LETTER ETA                         |
+| U+1F76->U+03B9 | GREEK SMALL LETTER IOTA WITH VARIA                                       | GREEK SMALL LETTER IOTA                        |
+| U+1F77->U+03B9 | GREEK SMALL LETTER IOTA WITH OXIA                                        | GREEK SMALL LETTER IOTA                        |
+| U+1F78->U+03BF | GREEK SMALL LETTER OMICRON WITH VARIA                                    | GREEK SMALL LETTER OMICRON                     |
+| U+1F79->U+03BF | GREEK SMALL LETTER OMICRON WITH OXIA                                     | GREEK SMALL LETTER OMICRON                     |
+| U+1F7A->U+03C5 | GREEK SMALL LETTER UPSILON WITH VARIA                                    | GREEK SMALL LETTER UPSILON                     |
+| U+1F7B->U+03C5 | GREEK SMALL LETTER UPSILON WITH OXIA                                     | GREEK SMALL LETTER UPSILON                     |
+| U+1F7C->U+03C9 | GREEK SMALL LETTER OMEGA WITH VARIA                                      | GREEK SMALL LETTER OMEGA                       |
+| U+1F7D->U+03C9 | GREEK SMALL LETTER OMEGA WITH OXIA                                       | GREEK SMALL LETTER OMEGA                       |
+| U+1F80->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F81->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI                    | GREEK SMALL LETTER ALPHA                       |
+| U+1F82->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI          | GREEK SMALL LETTER ALPHA                       |
+| U+1F83->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI          | GREEK SMALL LETTER ALPHA                       |
+| U+1F84->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI           | GREEK SMALL LETTER ALPHA                       |
+| U+1F85->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI           | GREEK SMALL LETTER ALPHA                       |
+| U+1F86->U+03B1 | GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI    | GREEK SMALL LETTER ALPHA                       |
+| U+1F87->U+03B1 | GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI    | GREEK SMALL LETTER ALPHA                       |
+| U+1F88->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI                 | GREEK SMALL LETTER ALPHA                       |
+| U+1F89->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI                 | GREEK SMALL LETTER ALPHA                       |
+| U+1F8A->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI       | GREEK SMALL LETTER ALPHA                       |
+| U+1F8B->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI       | GREEK SMALL LETTER ALPHA                       |
+| U+1F8C->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI        | GREEK SMALL LETTER ALPHA                       |
+| U+1F8D->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI        | GREEK SMALL LETTER ALPHA                       |
+| U+1F8E->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI | GREEK SMALL LETTER ALPHA                       |
+| U+1F8F->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI | GREEK SMALL LETTER ALPHA                       |
+| U+1F90->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI                      | GREEK SMALL LETTER ETA                         |
+| U+1F91->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI                      | GREEK SMALL LETTER ETA                         |
+| U+1F92->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI            | GREEK SMALL LETTER ETA                         |
+| U+1F93->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI            | GREEK SMALL LETTER ETA                         |
+| U+1F94->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI             | GREEK SMALL LETTER ETA                         |
+| U+1F95->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI             | GREEK SMALL LETTER ETA                         |
+| U+1F96->U+03B7 | GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI      | GREEK SMALL LETTER ETA                         |
+| U+1F97->U+03B7 | GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI      | GREEK SMALL LETTER ETA                         |
+| U+1F98->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI                   | GREEK SMALL LETTER ETA                         |
+| U+1F99->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI                   | GREEK SMALL LETTER ETA                         |
+| U+1F9A->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI         | GREEK SMALL LETTER ETA                         |
+| U+1F9B->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI         | GREEK SMALL LETTER ETA                         |
+| U+1F9C->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI          | GREEK SMALL LETTER ETA                         |
+| U+1F9D->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI          | GREEK SMALL LETTER ETA                         |
+| U+1F9E->U+03B7 | GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI   | GREEK SMALL LETTER ETA                         |
+| U+1F9F->U+03B7 | GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI   | GREEK SMALL LETTER ETA                         |
+| U+1FA0->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI                    | GREEK SMALL LETTER OMEGA                       |
+| U+1FA1->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI                    | GREEK SMALL LETTER OMEGA                       |
+| U+1FA2->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI          | GREEK SMALL LETTER OMEGA                       |
+| U+1FA3->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI          | GREEK SMALL LETTER OMEGA                       |
+| U+1FA4->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI           | GREEK SMALL LETTER OMEGA                       |
+| U+1FA5->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI           | GREEK SMALL LETTER OMEGA                       |
+| U+1FA6->U+03C9 | GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI    | GREEK SMALL LETTER OMEGA                       |
+| U+1FA7->U+03C9 | GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI    | GREEK SMALL LETTER OMEGA                       |
+| U+1FA8->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI                 | GREEK SMALL LETTER OMEGA                       |
+| U+1FA9->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI                 | GREEK SMALL LETTER OMEGA                       |
+| U+1FAA->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI       | GREEK SMALL LETTER OMEGA                       |
+| U+1FAB->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI       | GREEK SMALL LETTER OMEGA                       |
+| U+1FAC->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI        | GREEK SMALL LETTER OMEGA                       |
+| U+1FAD->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI        | GREEK SMALL LETTER OMEGA                       |
+| U+1FAE->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI | GREEK SMALL LETTER OMEGA                       |
+| U+1FAF->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI | GREEK SMALL LETTER OMEGA                       |
+| U+1FB0->U+03B1 | GREEK SMALL LETTER ALPHA WITH VRACHY                                     | GREEK SMALL LETTER ALPHA                       |
+| U+1FB1->U+03B1 | GREEK SMALL LETTER ALPHA WITH MACRON                                     | GREEK SMALL LETTER ALPHA                       |
+| U+1FB2->U+03B1 | GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI                    | GREEK SMALL LETTER ALPHA                       |
+| U+1FB3->U+03B1 | GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI                              | GREEK SMALL LETTER ALPHA                       |
+| U+1FB4->U+03B1 | GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI                     | GREEK SMALL LETTER ALPHA                       |
+| U+1FB6->U+03B1 | GREEK SMALL LETTER ALPHA WITH PERISPOMENI                                | GREEK SMALL LETTER ALPHA                       |
+| U+1FB7->U+03B1 | GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI              | GREEK SMALL LETTER ALPHA                       |
+| U+1FB8->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH VRACHY                                   | GREEK SMALL LETTER ALPHA                       |
+| U+1FB9->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH MACRON                                   | GREEK SMALL LETTER ALPHA                       |
+| U+1FBA->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH VARIA                                    | GREEK SMALL LETTER ALPHA                       |
+| U+1FBB->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH OXIA                                     | GREEK SMALL LETTER ALPHA                       |
+| U+1FBC->U+03B1 | GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI                           | GREEK SMALL LETTER ALPHA                       |
+| U+1FC2->U+03B7 | GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI                      | GREEK SMALL LETTER ETA                         |
+| U+1FC3->U+03B7 | GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI                                | GREEK SMALL LETTER ETA                         |
+| U+1FC4->U+03B7 | GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI                       | GREEK SMALL LETTER ETA                         |
+| U+1FC6->U+03B7 | GREEK SMALL LETTER ETA WITH PERISPOMENI                                  | GREEK SMALL LETTER ETA                         |
+| U+1FC7->U+03B7 | GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI                | GREEK SMALL LETTER ETA                         |
+| U+1FC8->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH VARIA                                  | GREEK SMALL LETTER EPSILON                     |
+| U+1FC9->U+03B5 | GREEK CAPITAL LETTER EPSILON WITH OXIA                                   | GREEK SMALL LETTER EPSILON                     |
+| U+1FCA->U+03B7 | GREEK CAPITAL LETTER ETA WITH VARIA                                      | GREEK SMALL LETTER ETA                         |
+| U+1FCB->U+03B7 | GREEK CAPITAL LETTER ETA WITH OXIA                                       | GREEK SMALL LETTER ETA                         |
+| U+1FCC->U+03B7 | GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI                             | GREEK SMALL LETTER ETA                         |
+| U+1FD0->U+03B9 | GREEK SMALL LETTER IOTA WITH VRACHY                                      | GREEK SMALL LETTER IOTA                        |
+| U+1FD1->U+03B9 | GREEK SMALL LETTER IOTA WITH MACRON                                      | GREEK SMALL LETTER IOTA                        |
+| U+1FD2->U+03B9 | GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA                         | GREEK SMALL LETTER IOTA                        |
+| U+1FD3->U+03B9 | GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA                          | GREEK SMALL LETTER IOTA                        |
+| U+1FD6->U+03B9 | GREEK SMALL LETTER IOTA WITH PERISPOMENI                                 | GREEK SMALL LETTER IOTA                        |
+| U+1FD7->U+03B9 | GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI                   | GREEK SMALL LETTER IOTA                        |
+| U+1FD8->U+03B9 | GREEK CAPITAL LETTER IOTA WITH VRACHY                                    | GREEK SMALL LETTER IOTA                        |
+| U+1FD9->U+03B9 | GREEK CAPITAL LETTER IOTA WITH MACRON                                    | GREEK SMALL LETTER IOTA                        |
+| U+1FDA->U+03B9 | GREEK CAPITAL LETTER IOTA WITH VARIA                                     | GREEK SMALL LETTER IOTA                        |
+| U+1FDB->U+03B9 | GREEK CAPITAL LETTER IOTA WITH OXIA                                      | GREEK SMALL LETTER IOTA                        |
+| U+1FE0->U+03C5 | GREEK SMALL LETTER UPSILON WITH VRACHY                                   | GREEK SMALL LETTER UPSILON                     |
+| U+1FE1->U+03C5 | GREEK SMALL LETTER UPSILON WITH MACRON                                   | GREEK SMALL LETTER UPSILON                     |
+| U+1FE2->U+03C5 | GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA                      | GREEK SMALL LETTER UPSILON                     |
+| U+1FE3->U+03C5 | GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA                       | GREEK SMALL LETTER UPSILON                     |
+| U+1FE4->U+03C1 | GREEK SMALL LETTER RHO WITH PSILI                                        | GREEK SMALL LETTER RHO                         |
+| U+1FE5->U+03C1 | GREEK SMALL LETTER RHO WITH DASIA                                        | GREEK SMALL LETTER RHO                         |
+| U+1FE6->U+03C5 | GREEK SMALL LETTER UPSILON WITH PERISPOMENI                              | GREEK SMALL LETTER UPSILON                     |
+| U+1FE7->U+03C5 | GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI                | GREEK SMALL LETTER UPSILON                     |
+| U+1FE8->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH VRACHY                                 | GREEK SMALL LETTER UPSILON                     |
+| U+1FE9->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH MACRON                                 | GREEK SMALL LETTER UPSILON                     |
+| U+1FEA->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH VARIA                                  | GREEK SMALL LETTER UPSILON                     |
+| U+1FEB->U+03C5 | GREEK CAPITAL LETTER UPSILON WITH OXIA                                   | GREEK SMALL LETTER UPSILON                     |
+| U+1FEC->U+03C1 | GREEK CAPITAL LETTER RHO WITH DASIA                                      | GREEK SMALL LETTER RHO                         |
+| U+1FF2->U+03C9 | GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI                    | GREEK SMALL LETTER OMEGA                       |
+| U+1FF3->U+03C9 | GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI                              | GREEK SMALL LETTER OMEGA                       |
+| U+1FF4->U+03C9 | GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI                     | GREEK SMALL LETTER OMEGA                       |
+| U+1FF6->U+03C9 | GREEK SMALL LETTER OMEGA WITH PERISPOMENI                                | GREEK SMALL LETTER OMEGA                       |
+| U+1FF7->U+03C9 | GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI              | GREEK SMALL LETTER OMEGA                       |
+| U+1FF8->U+03BF | GREEK CAPITAL LETTER OMICRON WITH VARIA                                  | GREEK SMALL LETTER OMICRON                     |
+| U+1FF9->U+03BF | GREEK CAPITAL LETTER OMICRON WITH OXIA                                   | GREEK SMALL LETTER OMICRON                     |
+| U+1FFA->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH VARIA                                    | GREEK SMALL LETTER OMEGA                       |
+| U+1FFB->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH OXIA                                     | GREEK SMALL LETTER OMEGA                       |
+| U+1FFC->U+03C9 | GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI                           | GREEK SMALL LETTER OMEGA                       |
++----------------+--------------------------------------------------------------------------+------------------------------------------------+
