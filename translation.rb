@@ -26,8 +26,8 @@ class UnicodeData
 end
 
 # u = UnicodeData.new
-# puts u.lookup("U+0112")
-# => CYRILLIC SMALL LETTER A WITH DIAERESIS
+# puts u.lookup("0112")
+# => LATIN CAPITAL LETTER E WITH MACRON
 
 class CharsetTable
   DATA_FILE = 'charset_table'
